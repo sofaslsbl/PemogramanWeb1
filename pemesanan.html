@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+<body>
+    <!--Buat Judul-->
+    <h1>Black Goose Bistro
+    Pizza-on-Demand</h1>
+    <p>Our12" wood-fried pizzas are available for delivery. Build your custom pizza and we`ll deliver it within an hour</p>
+<!--Buat Form-->
+<form action=sukses.html">
+    <h3>Your Information</h3>
+    <table>
+        <tr>
+            <!--Buat Nama-->
+            <!--Buat 2 Kolom-->
+            <td>Name</td>
+            <td>:
+                <input type="text">
+            </td>
+        </tr>
+        <!--Buat Alamat-->
+        <tr>
+            <td>Adress</td>
+            <td>:
+                <input type="text">
+            </td>
+        </tr>
+        <!--Buat Nomor Telepon-->
+        <tr>
+            <td>Telephone Number</td>
+            <td>:
+                <input type="text">
+            </td>
+        </tr>
+        <!--Buat Email-->
+        <tr>
+            <td>Email</td>
+            <td>:
+                <input type="text">
+            </td>
+        </tr>
+        <!--Buat Instruksi-->
+        <tr>
+            <td>Delivery Intructions</td>
+            <td>:
+                <textarea  cols="21" rows="3" maxlength="400" placeholder="No more than 400 characters long"></textarea>
+            </td>
+        </tr>
+    </table>
+    <fieldset>
+    <fieldset>
+        <legend> <b>Design Your Dream Pizza</b> </legend>
+    
+        <h4>Crust (Choose one):</h4>
+        <!--Buat List-->
+        <ul style="list-style: none ;">
+            <!--Isi Konten List-->
+            <li>
+                <input type="radio" id="Classic" name="crust"> 
+                <label for="">Classic white </label> 
+            
+            </li>
+            <!--Buat Multigrain-->
+            <li>
+                <input type="radio" id=" Multi" name="crust">
+                <label for="">Multigrain</label> 
+            </li>
+            <!-- Buat Una Melt-->
+            <li>
+                <input type="radio" id="Una" name="crust" >
+                <label for="">Una Melt</label>
+            </li>
+            <!--Buat Cheese-->
+            <li>
+                <input type="radio" id="Cheesy" name="crust">
+                <label for="">Cheesy Galore</label>
+            </li>
+            <!--Buat Meat Lovers-->
+            <li>
+                <input type="radio" id="Meat" name="crust">
+                <label for="">Meat Lovers</label>
+            </li>
+        </ul>
+    
+    <!--Buat Topping-->
+        <h4>Toppings (Choose as many as you want): </h4>
+        <!--Buat List Topping-->
+        <ul style="list-style: none  ;">
+            <li>
+                <input type="checkbox"> 
+               White sauce
+            </li>
+            <li><input type="checkbox">
+               Mozarella Cheese
+            </li>
+            <li><input type="checkbox">
+               Pepprerani
+            </li>
+            <li><input type="checkbox">
+                Mushrooms
+            </li>
+            <li><input type="checkbox">
+              Peppers 
+            </li>
+            <li><input type="checkbox">
+               Anchories 
+            </li>
+            <li><input type="checkbox">
+                Pineapple
+            </li>
+        </ul>
+        
+        <h4>Number</h4>
+        <p>How many pizza:</label>
+        <input type="number" min="1" max="6">
+        <br>
+        <br>
+        <!--Buat Botton-->
+        <button type="submit"> Bring me a Pizza</button>
+        <button type="reset"> Reset</button>
+    
+    </fieldset>
+
+    </form>
+
+
+</body>
+</html>
