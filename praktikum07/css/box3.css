@@ -1,0 +1,34 @@
+.kotak-atas {
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* Anak Pertama Lavender & lightcoral */
+.container .kotak:nth-child(1) {
+    background-color: lavender;
+    width: 20%;
+}
+
+.container .kotak:nth-child(2) {
+    background-color: lightcoral;
+    width: 79%;
+}
+
+/* Anak Pertama Llightseagreen & lightsalmon */
+.item-1 {
+    background-color: lightseagreen;
+}
+
+.item-2 {
+    background-color: lightsalmon;
+}
+
+.kotak {
+    height: 200px;
+}
