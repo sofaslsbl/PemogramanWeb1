@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    height: 100vh;
+}
+
+nav {
+    background-color: aquamarine;
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+.kanan {
+    flex: 2;
+    height: 100vh;
+}
+
+header {
+    background-color: pink;
+    flex-direction: column;
+    height: 10vh;
+}
+
+.main {
+    display: flex;
+    height: 80vh;
+}
+
+article {
+    background-color: grey;
+    flex: 3;
+}
+
+aside {
+    background-color: aquamarine;
+    flex: 1;
+}
+
+footer {
+    background-color: pink;
+    height: 10vh
+}
+
+.kiri {
+    flex: 1;
+}
