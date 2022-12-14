@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 10.2</title>
+</head>
+
+<body>
+    <h2>Kalkulator</h2>
+    <form>
+        Bilangan 1 : <input type="text" id="bil1" />
+        <br />
+        Bilangan 2 : <input type="text" id="bil2" />
+        <br />
+        <input type="button" value="Hitung" onclick="jumlahkan()" />
+        <br />
+        Hasil penjumlahan :<span id="hasil"></span>
+    </form>
+
+    <script>
+        function jumlahkan() {
+            // Tangkap nilai input bil 1,ubah ke int lalu simpan ke variabel bil1
+            let bil1 = parseInt(document.getElementById("bil1").value);
+            // Tangkap nilai input bil 2,ubah ke int lalu simpan ke variabel bil2
+            let bil2 = parseInt(document.getElementById("bil2").value);
+            console.log(bil1 + bil2);
+
+            let bilhasil = bil1 + bil2;
+
+            // Akses id hasil lalu isi dengan variable bilhasil
+            document.getElementById("hasil").innerHTML = bilhasil;
+        }
+    </script>
+</body>
+
+</html>

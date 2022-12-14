@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Praktikum 10.1</title>
+</head>
+
+<body>
+    <form>
+        Cari Siswa : <input type="text" id="nama_cari" value="" size="30" />
+        <input type="button" value="Go" onclick="cariTeman()" />
+    </form>
+    <hr/>
+    <div style="width: 300px; border: 25px solid green; color: black; padding: 25px; margin: 25px;">
+        Nama yang anda cari : <span id="katacari"></span>
+    </div>
+
+    <script>
+        function cariTeman() {
+            // Tangkap nilai input cari siswa ke variabel str
+            let str = document.getElementById("nama_cari").value;
+            // Tampilkan Hasil nya ke pop up
+            alert("Kata cari : " + str);
+
+            // Akses id katacari lalu isi dengan variable str
+            document.getElementById("katacari").innerHTML = str;
+            console.log(str);
+
+            if (str == "ahmad") {
+                console.log("ahmad ketemu");
+                document.getElementById("katacari").style = "color:black";
+            } else {
+                console.log("ini bukan ahmad");
+                document.getElementById("katacari").style = "color:red";
+            }
+        }
+    </script>
+</body>
+
+</html>
