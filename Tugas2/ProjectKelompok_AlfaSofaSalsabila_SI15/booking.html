@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <title>Booking - Klinik Kesehatan Gigi BriteWell</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                      <h3 align="center">
+                        Klinik Kesehatan Gigi BriteWell - Jakarta
+                      </h3>
+                      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <img src="dist/img/logo.png" alt="" width="60px">
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+        
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                              <li class="nav-item">
+                                <a class="nav-link" href="">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="layanan.html">Layanan</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="booking.html">Booking <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="testimoni.html">Testimoni</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="tentangkami.html">Tentang Kami</a>
+                              </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"> <a class="" href="login.html">Login</a> </button>
+                              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"> <a class="" href="signup.html">Sign Up</a> </button>
+                            </form>
+                          </div>
+                      </nav>
+            </div>
+                      <nav class="container-fluid">
+                        <div class="row">
+                          <div class="col-md-12">
+                          <nav>
+                            <ol class="breadcrumb">
+                              <li class="breadcrumb-item">
+                              <a href="home.html">Home</a>
+                              </li>
+                              <li class="breadcrumb-item active">
+                              Booking
+                              </li>
+                            </ol>
+                          </nav>
+                      <br>
+                        <form>
+                        <div class="form-group row">
+                          <label for="text" class="col-4 col-form-label">Nama Pasien</label> 
+                          <div class="col-8">
+                            <div class="input-group">
+                              <input id="text" name="text" type="text" class="form-control"> 
+                              <div class="input-group-append">
+                                <div class="input-group-text">
+                                  <i class="fa fa-address-card-o"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="pilih dokter" class="col-4 col-form-label">Pilih Dokter</label> 
+                          <div class="col-8">
+                            <select id="pilih dokter" name="pilih dokter" class="custom-select">
+                              <option value="drg indra bakhtiar">Drg Indra Bakhtiar</option>
+                              <option value="drg cindy amalia">Drg Cindy Amalia</option>
+                              <option value="drg lola risha">Drg Lola Risha</option>
+                              <option value="drg lulu fatya">Drg Lulu Fatya</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="pilih layanan" class="col-4 col-form-label">Pilih Layanan</label> 
+                          <div class="col-8">
+                            <select id="pilih layanan" name="pilih layanan" class="custom-select">
+                              <option value="perawatan gigi anak">Perawatan Gigi Anak</option>
+                              <option value="perawatan saraf">Perawatan Saraf</option>
+                              <option value="pencabutan gigi">Pencabutan Gigi</option>
+                              <option value="penambalan gigi">Penambalan Gigi</option>
+                              <option value="konsultasi">Konsultasi</option>
+                              <option value="skeling">Skeling</option>
+                              <option value="veneer">Veneer</option>
+                              <option value="perawatan gigi dewasa">Perawatan Gigi Desawa</option>
+                              <option value="pembersihan karang gigi">Pembersihan Karang Gigi</option>
+                              <option value="lepas/pasang behel">Lepas/Pasang Behel</option>
+                              <option value="tambal gigi">Tambal Gigi</option>
+                              <option value="gigi tiruan">Gigi Tiruan</option>
+                              <option value="bleaching">Bleaching</option>
+                              <option value="lainnya">Lainnya</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="Keluhan" class="col-4 col-form-label">Keluhan</label> 
+                          <div class="col-8">
+                            <textarea id="Keluhan" name="Keluhan" cols="40" rows="5" class="form-control"></textarea>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-4">Payment</label> 
+                          <div class="col-8">
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                              <input name="payment" id="payment_0" type="checkbox" class="custom-control-input" value="cash"> 
+                              <label for="payment_0" class="custom-control-label">Cash</label>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                              <input name="payment" id="payment_1" type="checkbox" class="custom-control-input" value="transfer bank"> 
+                              <label for="payment_1" class="custom-control-label">Transfer Bank</label>
+                            </div>
+                            <div class="custom-control custom-checkbox custom-control-inline">
+                              <input name="payment" id="payment_2" type="checkbox" class="custom-control-input" value="ewallet"> 
+                              <label for="payment_2" class="custom-control-label">eWallet</label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label class="col-4 col-form-label" for="tanggal pemeriksaan">Tanggal Pemeriksaan</label> 
+                          <div class="col-8">
+                            <div class="input-group">
+                              <input id="tanggal pemeriksaan" name="tanggal pemeriksaan" type="date" class="form-control"> 
+                              <div class="input-group-append">
+                                <div class="input-group-text">
+                                  <i class="fa fa-calendar"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="umur" class="col-4 col-form-label">Umur</label> 
+                          <div class="col-8">
+                            <input id="umur" name="umur" type="number" class="form-control">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="telphone/hp" class="col-4 col-form-label">Telephone/HP</label> 
+                          <div class="col-8">
+                            <div class="input-group">
+                              <input id="telphone/hp" name="telphone/hp" type="number" class="form-control"> 
+                              <div class="input-group-append">
+                                <div class="input-group-text">
+                                  <i class="fa fa-address-book-o"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="email" class="col-4 col-form-label">Email</label> 
+                          <div class="col-8">
+                            <input id="email" name="email" type="email" class="form-control">
+                          </div>
+                        </div> 
+                        <div class="form-group row">
+                          <div class="offset-4 col-8">
+                            <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button name="submit" type="submit" class="btn btn-primary">Reset</button>
+                          </div>
+                        </div>
+                        </form>
+        <br>          
+        <hr>    
+        <div class="row">
+            <div class="col-md-12">
+                <address>
+                     Develop By <strong>Mahasiswa STT-NF Kelompok 2@2023</strong>
+                </address>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+  </body>
+</html>
